@@ -17,4 +17,4 @@
 # Pick up overlay for features that depend on non-open-source files
 DEVICE_PACKAGE_OVERLAYS := vendor/asus/tf101/overlay
 
-$(call inherit-product, vendor/asus/tf101/tf101-vendor-blobs.mk)
+$(call inherit-product, vendor/asus/tf101/device-vendor-blobs.mk)
